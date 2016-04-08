@@ -24,18 +24,18 @@
 }
 body {
     font-family: 'code_lightregular', 'Helvetica', sans-serif;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #000;
+        transition: 0.5s all ease;
 }
 h1 {
     font-family: 'code_boldregular', 'Helvetica', sans-serif;
     font-size: 5em;
-    color: #000;
+    color: #fff;
     transition: 1s all ease;
     text-transform: uppercase;
 }
 .container {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 .title {
     text-align: center;
@@ -55,7 +55,7 @@ h1 {
     padding-bottom: 2em;
 }
 .tickets {
-    background-color: #fff;
+    background-color: #000;
 }
 .col {
     width: 100%;
@@ -87,23 +87,22 @@ h1 {
     transition: 0.5s all ease;
 }
 .text {
+    color: #fff;
     padding: 1em;
-    font-size: 1em;
+    font-size: 2em;
     transition: 1s all ease;
 }
 .loc {
-    color: #000;
+    color: #fff;
     font-family: 'code_boldregular', 'Helvetica', sans-serif;
     font-size: 4em;
     transition: 1s all ease;
 }
-
 .video {
-  width: 380px;
-  height: 240px;
-  transition: 0.5s all ease;
+    width: 380px;
+    height: 240px;
+    transition: 0.5s all ease;
 }
-
 @media screen and (min-width: 500px) {
     h1 {
         font-size: 7em;
@@ -121,11 +120,26 @@ h1 {
         font-size: 5em;
     }
     .video {
-      width: 550px;
-      height: 410px;
+        width: 550px;
+        height: 410px;
     }
 }
 @media screen and (min-width: 768px) {
+    body {
+        background-color: #fff;
+    }
+    .container {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    .tickets {
+        background-color: #fff;
+    }
+    .loc {
+        color: #000;
+    }
+    .text {
+        color: #000;
+    }
     .col {
         width: 29%;
     }
@@ -173,8 +187,8 @@ h1 {
         font-size: 3.5em;
     }
     .video {
-      width: 640px;
-      height: 360px;
+        width: 640px;
+        height: 360px;
     }
     .loc {
         font-size: 5em;
