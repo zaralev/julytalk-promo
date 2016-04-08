@@ -25,7 +25,7 @@
 body {
     font-family: 'code_lightregular', 'Helvetica', sans-serif;
     background-color: #000;
-        transition: 0.5s all ease;
+    transition: 0.5s all ease;
 }
 h1 {
     font-family: 'code_boldregular', 'Helvetica', sans-serif;
@@ -56,6 +56,7 @@ h1 {
 }
 .tickets {
     background-color: #000;
+    text-align: center;
 }
 .col {
     width: 100%;
@@ -72,7 +73,7 @@ h1 {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    padding: 0.5em;
+    padding: 2em;
     vertical-align: middle;
     transition: 0.5s all ease;
 }
@@ -88,8 +89,9 @@ h1 {
 }
 .text {
     color: #fff;
+    margin-top: -1.2em;
     padding: 1em;
-    font-size: 2em;
+    font-size: 3em;
     transition: 1s all ease;
 }
 .loc {
@@ -107,14 +109,8 @@ h1 {
     h1 {
         font-size: 7em;
     }
-    h2 {
-        font-size: 1.7em;
-    }
-    h3 {
-        font-size: 1.5em;
-    }
     .text {
-        font-size: 1.1em;
+        font-size: 4em;
     }
     .loc {
         font-size: 5em;
@@ -124,7 +120,7 @@ h1 {
         height: 410px;
     }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 856px) {
     body {
         background-color: #fff;
     }
@@ -139,6 +135,7 @@ h1 {
     }
     .text {
         color: #000;
+        font-size: 1.7em;
     }
     .col {
         width: 29%;
@@ -161,7 +158,7 @@ h1 {
         margin-bottom: 0em;
     }
     .loc {
-        font-size: 3.5em;
+        font-size: 3em;
     }
 }
 @media screen and (min-width: 1024px) {
@@ -191,14 +188,17 @@ h1 {
         height: 360px;
     }
     .loc {
-        font-size: 5em;
+        font-size: 4em;
+    }
+    .text {
+        font-size: 2.6em;
     }
 }
-@media screen and (min-width: 1280px) {
-    h1 {
-        font-size: 9em;
-    }
+@media screen and (min-width: 1189px) {
     .loc {
-        font-size: 6em;
+        font-size: 5em;
+    }
+    .text {
+        font-size: 3.6em;
     }
 }
