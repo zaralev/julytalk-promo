@@ -141,7 +141,7 @@ h1:hover {
     background-color: #A00;
     letter-spacing: 0.15em;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 768px) {
     h1 {
         font-size: 7em;
     }
@@ -156,7 +156,7 @@ h1:hover {
         height: 240px;
     }
 }
-@media screen and (min-width: 856px) {
+@media screen and (min-width: 1024px) {
     body {
         background-color: #fff;
     }
@@ -196,8 +196,12 @@ h1:hover {
     .loc {
         font-size: 3em;
     }
+    .video {
+        width: 640px;
+        height: 360px;
+    }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
     .col {
         width: 30%;
     }
@@ -219,22 +223,11 @@ h1:hover {
     .newOr {
         font-size: 3.5em;
     }
-    .video {
-        width: 640px;
-        height: 360px;
-    }
+
     .loc {
         font-size: 4em;
     }
     .text {
         font-size: 2.6em;
-    }
-}
-@media screen and (min-width: 1189px) {
-    .loc {
-        font-size: 5em;
-    }
-    .text {
-        font-size: 3.6em;
     }
 }
